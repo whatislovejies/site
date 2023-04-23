@@ -12,43 +12,46 @@
     <header>
       <nav class="top-menu">
         <ul class="menu-main">
-          <li class="left-item current"><a href="">Соискателям</a></li>
-          <li class="left-item"><a href="">Работодателям</a></li>
-          <!-- <li class="right-item"><a href="">Создать резюме</a></li>
-          <li class="right-item"><a href="">Войти</a></li> -->
+          <li class="left-item current"><a href="index.html">Соискателям</a></li>
+          <li class="left-item"><a href="Rindex.html">Работодателям</a></li>
       </ul>
       </nav>
       <section class="middle-menu">
       <ul class="menu">
-        <li class=""><a href="" class="resume_create">Создать резюме</a></li>
-        <li class=""><a href="" class="entrance">Вход</a></li>
+        <li class=""><a href="Sregistration.php" class="resume_create">Создать резюме</a></li>
+        <li class=""><a href="Sautorization.php" class="entrance">Вход</a></li>
     </ul>
       <form>
+        <h1 >Работа найдётся для каждого</h1>
         <input type="text" placeholder="Поиск">
         <button type="submit"><i class="fas fa-search"></i></button>
       </form>
+      <a href="Rindex.html">Я ищу сотрудника</a>
       </header>
     </section>
-    
-    <section class="content">
+      <div class="slider">
+        <div class="slider-line">
       <div class="vacancy">
         <h2>Вакансия дня</h2>
         <p>Название вакансии</p>
         <p>100 000 руб./мес.</p>
         <p>2 вакансии</p>
+        <a href=""><p>посмотреть</p></a>
       </div>
       <div class="vacancy">
         <h2>Компания дня</h2>
         <p>Название компании</p>
         <p>10 вакансий</p>
+        <a href=""><p>посмотреть</p></a>
       </div>
-      <div class="vacancy">
+      <div class="vacancy">a
         <h2>Работа из дома</h2>
         <p>Название вакансии</p>
         <p>80 000 руб./мес.</p>
         <p>5 вакансий</p>
+        <a href=""><p>посмотреть</p></a>
       </div>
-      <div class="vacancy">
+      <!-- <div class="vacancy">
         <h2>Подработка</h2>
         <p>Название вакансии</p>
         <p>30 000 руб./мес.</p>
@@ -101,8 +104,13 @@
           <p>Название вакансии</p>
           <p>110 000 руб./мес. </p>
           <p>1 вакансия</p>
-        </div>  
-    </section>
+        </div>   -->
+      </div>
+      <button class="slider-next">-></button>
+      <button class="slider-prev"><-</button>
+      <div id="prevtBtn" class='fa fa-chevron-circle-left'></div>
+      <div id="nextBtn" class='fa fa-chevron-circle-right'></div>
+    </div>
   </main>
 
   <footer>
@@ -113,6 +121,7 @@
       <a href="#"><i class="fab fa-linkedin-in"></i></a>
     </div>
   </footer>
+  <script src="assets/JavaScript/slider.js"></script>
 </body>
 
 </body>
