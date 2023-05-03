@@ -203,7 +203,7 @@ footer {
   overflow: hidden;
 }
 .vacancy:nth-child(1){
-  background-color: #feb386;
+  background-image: url("assets/img/w720h405fill.jpg");
 }
 .vacancy:nth-child(2){
   background-color: #471d02;
@@ -228,4 +228,7 @@ footer {
  position: absolute;
  top: 850px;
  left: 200px;
+}
+#div1{
+  display: none;
 }

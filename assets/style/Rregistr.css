@@ -79,8 +79,8 @@ h2 {
    }
    .password-control {
 	position: absolute;
-	top: 952px;
-	right: 660px;
+	top: 433px;
+	right: 670px;
 	display: inline-block;
 	width: 20px;
 	height: 20px;
@@ -91,9 +91,8 @@ h2 {
 }
 .password-controll {
 	position: absolute;
-	
-    top: 1040px;
-	right: 660px;
+    top: 519px;
+	right: 670px;
 	display: inline-block;
 	width: 20px;
 	height: 20px;
